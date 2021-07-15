@@ -1,0 +1,151 @@
+.header_left
+{
+    height: 40%;
+    width: 100%;
+    left:50px;
+    background-color: blueviolet;
+    transition: width 2s;
+    border-radius: 20px solid 1px;
+}
+.header_right
+{
+    height: 40%;
+    position: right;
+    right: -20px;
+    background-color:darkcyan;
+    transition: width 2s;
+    border-radius: 20px;
+    
+}
+.header_left:hover{
+    width: 100%;
+    
+    background-color: cornflowerblue;
+}
+
+img{
+    border-radius: 70%;
+    position: relative;
+   top: 25px;
+   right: -40px;
+   border-color: darkgray;
+   border-width: 5px;
+   border: 5px solid white;
+
+}
+#camera{
+    position: relative;
+   top: 10px;
+   left:1200px;
+   border-color: darkgray;
+   border-width: 5px;
+   border: 5px solid white;
+   border-radius: 70%;
+}
+#heading{
+    top: 10px;
+    position: relative;
+    right:-240px;
+}
+p{
+    top: -10px;
+    position: relative;
+    right: -240px;
+}
+.fa_custom {
+    color: #0099CC
+    }
+    .body_data
+    {
+        
+        background-color:gray;
+        opacity: 0.3;
+        height: 350px;;
+    }
+    #details
+    {
+        top: 60px;
+        position: relative;
+        right: -200px;
+
+    }
+    .chat
+    {
+        background-color:lightgreen;
+        border-radius: 40%;
+        width: 15%;
+        height: 50px;
+        
+        text-align: center
+    }
+    .video
+    {
+        right: -500px;
+        top:-260px;
+        position: relative;
+    }
+    .star
+    {
+       margin-top: 20px;
+       top:60px;
+       position: relative;
+       right: -200px;
+    }
+    .checked {
+        color: orange;
+      }
+      .star-print
+      {
+        margin-top: 20px;
+        top:-65px;
+        position: relative;
+        right: -80px;
+      }
+      .image2
+      {
+          right:-930px;
+          position: relative;
+           top:-520px;
+      }
+      .activity
+      {
+          margin-top: 5px;
+          background-color:white;
+          border: solid 1px;
+          border-color:lightslategrey;
+          height: 160px;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          text-align:initial;
+          
+      }
+      .about
+      {
+          
+          right:-30px;
+          border:solid 0.5px;
+          border-color:lightgray;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          margin: 10px;
+          margin-inline: 10px;
+      }
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
